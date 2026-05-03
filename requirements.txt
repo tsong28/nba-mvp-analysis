@@ -1,0 +1,8 @@
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+seaborn>=0.13
+kaggle>=1.6
+# Modeling (used by src/model.py stubs — install when you're ready to fit)
+pymc>=5.10
+arviz>=0.17

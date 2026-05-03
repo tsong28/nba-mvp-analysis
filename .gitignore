@@ -1,0 +1,24 @@
+# Data — keep raw downloads out of git
+data/raw/
+data/processed/*.csv
+*.zip
+
+# Figures (regenerable)
+figures/*.png
+figures/*.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Jupyter — keep the notebook tracked but drop checkpoints and outputs noise
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
